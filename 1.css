@@ -1,0 +1,32 @@
+* {
+	font-family: montserrat;
+}
+video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+	transform: translateX(-50%) translateY(-50%);
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center
+	}
+	.carousel-caption {
+		bottom: 165px
+	}
+	.carousel-caption h5 {
+		font-size: 16px
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 14px
+	}
+	.navbar .appbtn {
+		display: none;
+	}
+}
